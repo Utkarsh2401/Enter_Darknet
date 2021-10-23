@@ -34,6 +34,10 @@ Exploring darknet and implementing it.
 
   - [Predicting](#Predict)
  
+  - [Contributors](#Contributor)
+ 
+  - [Acknowledgements And Resources](#AR)
+ 
 </a>
 
 <a name = "darknet">
@@ -236,4 +240,22 @@ Using this file we will now predict outputs.
 ```
 
 </a> 
-  
+
+<a name = "Contributor">
+
+## Contributors
+* Utkarsh Gandhi
+* Sarrah Bastawala
+
+</a> 
+ 
+<a name = "AR">
+
+## Acknowledgements And Resources
+
+* [SRA VJTI](https://sravjti.in/) Eklavya 2021
+* [pjreddie](https://pjreddie.com/)
+* [AlexeyAB](https://github.com/AlexeyAB/darknet)
+* Speacial thanks to our mentors Aman Chhaparia and Prathamesh Tagore and to the whole SRA Team for guiding us throughout this project.
+ 
+ </a>
