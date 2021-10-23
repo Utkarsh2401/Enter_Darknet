@@ -200,8 +200,7 @@ Darknet
 |
 ├── darknet_video.py          - python code for object detection in videos.
 |
-├── Makefile                  - special file, containing shell commands. While in the directory containing this makefile, you will type make and the commands in   |                               
-|                               the Makefile will be executed.
+├── Makefile                  - special file, containing shell commands. While in the directory containing this makefile, you will type make and the commands in the Makefile will be executed.
 |
 ├── yolov4.weights            - downloaded wieghts for training with YOLOv4.
 ```
