@@ -39,7 +39,8 @@ mkdir build_release
 cd build_release
 ```
 ##### Now if you are doing it via GPU (CUDA):
-<code>cmake ..</code>
+  
+Follow [this](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make).
 
 ##### If it's via CPU:
 
