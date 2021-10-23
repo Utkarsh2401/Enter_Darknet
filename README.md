@@ -269,6 +269,7 @@ Average Loss = 1.7484
 * [SRA VJTI](https://sravjti.in/) Eklavya 2021
 * [pjreddie](https://pjreddie.com/)
 * [AlexeyAB](https://github.com/AlexeyAB/darknet)
+* [Project Drive](https://drive.google.com/drive/u/1/folders/1RWdPRY5_vRV82a5bEDPjy3V8FqGq6T5Z)
 * Speacial thanks to our mentors [Aman Chhaparia](https://github.com/amanchhaparia) and [Prathamesh Tagore](https://github.com/meshtag) and to the whole SRA Team for guiding us throughout this project.
  
  </a>
