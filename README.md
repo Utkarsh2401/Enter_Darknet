@@ -12,6 +12,12 @@
 
 * [ResNet_34](#ResNet34)
 
+* [Training The Model](#Train)
+
+* [Predicting](#Predict)
+
+* [File Structure Of Darknet](#File)
+
 <a name = "darknet">
 
 ## Darknet
@@ -118,6 +124,8 @@ Also make the cifar.data file in the cfg folder of the cloned darknet repository
   
 </a>
 
+<a name = "Train">
+
 ## Training The Model
 
 After making the cfg files, we are ready to train our models now using the CIFAR-10 dataset!
@@ -135,6 +143,10 @@ cd darknet
 cd darknet
 ./darknet classifier train cfg/cifar.data cfg/ResNet_34.cfg
 ```
+  
+</a>
+
+<a name = "Predict">
 
 ## Predicting
 
@@ -152,6 +164,11 @@ Using this file we will now predict outputs.
 ```
 ./darknet classifier predict cfg/cifar.data cfg/ResNet_34.cfg backup/ResNet_34_final.weights
 ```
+
+</a> 
+ 
+<a name = "File"> 
+ 
 ## File Structure Of Darknet
 
 ```
@@ -188,3 +205,4 @@ Darknet
 |
 ├── yolov4.weights            - downloaded wieghts for training with YOLOv4.
 ```
+</a>
