@@ -32,3 +32,11 @@ Then <code>cmake ..-DENABLE_CUDA=OFF</code>
 And the final command is <code>make -j4</code>
 
 ## CNN.cfg
+
+#### CNN Model
+
+![CNN Model](/Assets/CNN_Model.png "CNN Model Image")
+
+##### Training Graph
+
+![CNN Model Training Graph](/Assets/CNN_TrainingGraph "Training Graph")
