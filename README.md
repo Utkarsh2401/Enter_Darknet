@@ -1,5 +1,13 @@
 # Enter_Darknet
 
+* [Setting Up Darknet In Linux](#Setup_Darknet)
+
+* [CNN.cfg](#CNN)
+
+* [ResNet_34.cfg](#ResNet34)
+
+<a name = "Setup_Darknet">
+  
 ## Setting up Darknet in Linux
 
 #### Prerequisites: 
@@ -31,6 +39,10 @@ Then <code>cmake ..-DENABLE_CUDA=OFF</code>
 
 And the final command is <code>make -j4</code>
 
+</a>
+
+<a name = "CNN">
+
 ## CNN.cfg
 
 #### CNN Model
@@ -41,6 +53,10 @@ And the final command is <code>make -j4</code>
 
 ![CNN Model Training Graph](/Assets/CNN_TrainingGraph.png "CNN Training Graph")
 
+</a>
+
+<a name = "ResNet34">
+
 ## Resnet_34.cfg
 
 #### ResNet_34 Model
@@ -50,3 +66,5 @@ And the final command is <code>make -j4</code>
 #### Training Graph
 
 ![ResNet34 Training Graph](/Assets/ResNet_34_TrainingGraph.png "ResNet34 Training Graph")
+  
+</a>
