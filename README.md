@@ -1,24 +1,32 @@
+<a name = "Project">
+
 # Enter_Darknet
+ 
+</a>
 
-* [Darknet](#darknet)
+## Table Of Contents
 
-* [File Structure Of Darknet](#File)
+* [Enter_Darknet](#Project)
 
-* [Setting Up Darknet In Linux](#Setup_Darknet)
+  - [Darknet](#darknet)
 
-* [Darknet Tutorial Using Google Colab](#Colab)
+  - [File Structure Of Darknet](#File)
 
-* [Object Detection](#ObjDetect)
+  - [Setting Up Darknet In Linux](#Setup_Darknet)
 
-* [Dataset For Image Classification](#dataset)
+  - [Darknet Tutorial Using Google Colab](#Colab)
 
-* [CNN](#CNN_Model)
+  - [Object Detection](#ObjDetect)
 
-* [ResNet_34](#ResNet34)
+  - [Dataset For Image Classification](#dataset)
 
-* [Training The Model](#Train)
+  - [CNN](#CNN_Model)
 
-* [Predicting](#Predict)
+  - [ResNet_34](#ResNet34)
+
+  - [Training The Model](#Train)
+
+  - [Predicting](#Predict)
 
 <a name = "darknet">
 
@@ -220,4 +228,4 @@ Using this file we will now predict outputs.
 ```
 
 </a> 
- 
+  
