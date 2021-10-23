@@ -6,7 +6,9 @@
 
 * [Darknet Tutorial Using Google Colab](#Colab)
 
-* [Dataset](#dataset)
+* [Object Detection](#ObjDetect)
+
+* [Dataset For Image Classification](#dataset)
 
 * [CNN](#CNN_Model)
 
@@ -74,9 +76,21 @@ Following the tutorial, setting up and installation of darknet to acquiring the 
 
 </a>
 
-<a name = "dataset">
+<a name = "ObjDetect">
 
-## Dataset
+## Object Detection
+
+Using the darknet library we detect objects in images as well as videos. The [simple_darknet_code.py](https://github.com/Utkarsh2401/Enter_Darknet/blob/dev/simple_darknet_code.py) does exactly that for images.
+
+|       Original Image        |          Object Detection          |
+|-----------------------------|------------------------------------|                                                              
+|![Dog](/Assets/dog.jpg "Dog")|![Dog](/Assets/dog_output.png "Dog")|
+  
+</a>  
+
+<a name = "dataset">
+  
+## Dataset For Image Classification
 
 #### CIFAR-10
 The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
