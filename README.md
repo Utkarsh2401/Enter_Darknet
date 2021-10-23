@@ -2,6 +2,8 @@
 
 * [Darknet](#darknet)
 
+* [File Structure Of Darknet](#File)
+
 * [Setting Up Darknet In Linux](#Setup_Darknet)
 
 * [Darknet Tutorial Using Google Colab](#Colab)
@@ -18,8 +20,6 @@
 
 * [Predicting](#Predict)
 
-* [File Structure Of Darknet](#File)
-
 <a name = "darknet">
 
 ## Darknet
@@ -29,6 +29,46 @@
 ![Darknet Logo](/Assets/Darknet_Logo.png "Darknet Logo")
   
 </a>
+
+<a name = "File"> 
+ 
+## File Structure Of Darknet
+
+```
+Darknet
+├── build_release
+|    └── libdarknet.so
+|    
+├── cfg
+|    └── cifar.data           - this is the file we created for training and predicting our models using CIFAR dataset.
+|    └── CNN.cfg              - CNN model cfg file.
+|    └── coco.data        
+|    └── coco.names
+|    └── ResNet_34.cfg        - ResNet34 model cfg file.
+|    └── yolov4.cfg           - YOLO v4 cfg file.
+|    
+├── data
+|    └── cifar                - after downloading cifar this folder is created.
+|         └── test            - this folder contains images for testing our models.
+|         └── train           - this folder contains images for training our models.
+|         └── labels.txt      - this file contains the labels for image classification.
+|         └── test.list       - this file contains paths to the images in the test folder.
+|         └── train.list      - this file contains paths to the images in the train folder.
+|        
+├── darknet                   - darknet executable (made after doing make)
+|
+├── darknet.py                - python wrapper for darknet.
+|
+├── darknet_images.py         - python code for object detection in images.
+|
+├── darknet_video.py          - python code for object detection in videos.
+|
+├── Makefile                  - special file, containing shell commands. While in the directory containing this makefile, you will type make and the commands in the Makefile will be executed.
+|
+├── yolov4.weights            - downloaded wieghts for training with YOLOv4.
+```
+</a>
+
 
 <a name = "Setup_Darknet">
   
@@ -181,41 +221,3 @@ Using this file we will now predict outputs.
 
 </a> 
  
-<a name = "File"> 
- 
-## File Structure Of Darknet
-
-```
-Darknet
-├── build_release
-|    └── libdarknet.so
-|    
-├── cfg
-|    └── cifar.data           - this is the file we created for training and predicting our models using CIFAR dataset.
-|    └── CNN.cfg              - CNN model cfg file.
-|    └── coco.data        
-|    └── coco.names
-|    └── ResNet_34.cfg        - ResNet34 model cfg file.
-|    └── yolov4.cfg           - YOLO v4 cfg file.
-|    
-├── data
-|    └── cifar                - after downloading cifar this folder is created.
-|         └── test            - this folder contains images for testing our models.
-|         └── train           - this folder contains images for training our models.
-|         └── labels.txt      - this file contains the labels for image classification.
-|         └── test.list       - this file contains paths to the images in the test folder.
-|         └── train.list      - this file contains paths to the images in the train folder.
-|        
-├── darknet                   - darknet executable (made after doing make)
-|
-├── darknet.py                - python wrapper for darknet.
-|
-├── darknet_images.py         - python code for object detection in images.
-|
-├── darknet_video.py          - python code for object detection in videos.
-|
-├── Makefile                  - special file, containing shell commands. While in the directory containing this makefile, you will type make and the commands in the Makefile will be executed.
-|
-├── yolov4.weights            - downloaded wieghts for training with YOLOv4.
-```
-</a>
