@@ -14,7 +14,7 @@
 
 <a name = "Darknet">
 
-Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation. You can find the source on [GitHub](https://github.com/AlexeyAB/darknet).
+[Darknet](https://pjreddie.com/darknet/) is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation. You can find the source on [GitHub](https://github.com/AlexeyAB/darknet).
   
 ![Darknet Logo](/Assets/Darknet_Logo.png "Darknet Logo")
   
@@ -68,6 +68,20 @@ Following the tutorial, setting up and installation of darknet to acquiring the 
 ## Dataset
 
 #### CIFAR-10
+The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+
+The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
+
+We will be using this dataset to train and test our models.
+
+##### Downloading the dataset:
+
+The python, MATLAB, and binary version can be downloaded from this [link](https://www.cs.toronto.edu/~kriz/cifar.html).
+
+But since we are training through darknet, we will use a mirror of the dataset as we want the pictures in image format.
+Follow instructions at this [link](https://pjreddie.com/darknet/train-cifar/) to do so.
+
+Also make the cifar.data file in the cfg folder of the cloned darknet repository from the above, but since we will be using our own config files, we don't need the cifra_small.cfg file from the above link.
 
 <a name = "CNN_Model">
 
@@ -96,3 +110,38 @@ Following the tutorial, setting up and installation of darknet to acquiring the 
 ![ResNet34 Training Graph](/Assets/ResNet_34_TrainingGraph.png "ResNet34 Training Graph")
   
 </a>
+
+## Training The Model
+
+After making the cfg files, we are ready to train our models now using the CIFAR-10 dataset!
+
+#### For training with the CNN Model
+
+```
+cd darknet
+./darknet classifier train cfg/cifar.data cfg/CNN.cfg
+```
+
+#### For training with the ResNet Model
+
+```
+cd darknet
+./darknet classifier train cfg/cifar.data cfg/ResNet_34.cfg
+```
+
+## Predicting
+
+After training, we get a .weights file which stores the weights of the model.
+Using this file we will now predict outputs.
+
+#### To predict using the CNN Model
+
+```
+./darknet classifier predict cfg/cifar.data cfg/CNN.cfg backup/CNN_final.weights
+```
+
+#### To predict using the ResNet Model
+
+```
+./darknet classifier predict cfg/cifar.data cfg/ResNet_34.cfg backup/ResNet_34_final.weights
+```
