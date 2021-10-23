@@ -244,8 +244,8 @@ Using this file we will now predict outputs.
 <a name = "Contributor">
 
 ## Contributors
-* Utkarsh Gandhi
-* Sarrah Bastawala
+* [Utkarsh Gandhi](https://github.com/Utkarsh2401)
+* [Sarrah Bastawala](https://github.com/sarrah-basta)
 
 </a> 
  
@@ -256,6 +256,6 @@ Using this file we will now predict outputs.
 * [SRA VJTI](https://sravjti.in/) Eklavya 2021
 * [pjreddie](https://pjreddie.com/)
 * [AlexeyAB](https://github.com/AlexeyAB/darknet)
-* Speacial thanks to our mentors Aman Chhaparia and Prathamesh Tagore and to the whole SRA Team for guiding us throughout this project.
+* Speacial thanks to our mentors [Aman Chhaparia](https://github.com/amanchhaparia) and [Prathamesh Tagore](https://github.com/meshtag) and to the whole SRA Team for guiding us throughout this project.
  
  </a>
