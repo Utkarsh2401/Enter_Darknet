@@ -1,10 +1,20 @@
 # Enter_Darknet
 
+* [Darknet](#Darknet)
+
 * [Setting Up Darknet In Linux](#Setup_Darknet)
 
 * [CNN.cfg](#CNN)
 
 * [ResNet_34.cfg](#ResNet34)
+
+## Darknet
+
+<a name = "Darknet">
+
+Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation. You can find the source on [GitHub](https://github.com/AlexeyAB/darknet).
+  
+</a>
 
 <a name = "Setup_Darknet">
   
