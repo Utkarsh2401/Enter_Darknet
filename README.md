@@ -6,9 +6,9 @@
 
 * [Darknet tutorial Using Google Colab](#Colab)
 
-* [CNN.cfg](#CNN)
+* [CNN](#CNN_Model)
 
-* [ResNet_34.cfg](#ResNet34)
+* [ResNet_34](#ResNet34)
 
 ## Darknet
 
@@ -55,19 +55,23 @@ And the final command is <code>make -j4</code>
 
 </a>
 
-
-## Darknet tutorial Using Google Colab (And it's 12 RAM GPU runtime)
 <a name = "Colab">
   
-  Our Complete Tutorial for how we trained a 34-layer Resnet Model using Colab is here:
+## Darknet Tutorial Using Google Colab (And it's 12 RAM GPU runtime)
+  
+Our Complete Tutorial for how we trained a 34-layer Resnet Model using Colab is here:
 [How to train a Classifier on Cifar-10 using Darknet on Colab notebook using a Resnet model's config file](https://colab.research.google.com/drive/1wzoCVvgglMtFPiXt-oA6SfqOqk7MCpmq) 
-  Following the tutorial, setting up and installation of darknet to acquiring the dataset and writing your own [config file](add link if we explain about config files) to train and test a model can be done in 7 simple steps, and use almost no resources of your native machine!
+Following the tutorial, setting up and installation of darknet to acquiring the dataset and writing your own [config file](add link if we explain about config files) to train and test a model can be done in 7 simple steps, and use almost no resources of your native machine!
 
-</a> 
+</a>
 
-## CNN.cfg
+## Dataset
 
-<a name = "CNN">
+#### CIFAR-10
+
+<a name = "CNN_Model">
+
+## CNN
  
 #### CNN Model
 
@@ -81,7 +85,7 @@ And the final command is <code>make -j4</code>
 
 <a name = "ResNet34">
 
-## Resnet_34.cfg
+## Resnet_34
 
 #### ResNet_34 Model
 
