@@ -39,4 +39,14 @@ And the final command is <code>make -j4</code>
 
 #### Training Graph
 
-![CNN Model Training Graph](/Assets/CNN_TrainingGraph.png "Training Graph")
+![CNN Model Training Graph](/Assets/CNN_TrainingGraph.png "CNN Training Graph")
+
+## Resnet_34.cfg
+
+#### ResNet_34 Model
+
+![ResNet34 Model](/Assets/ResNet_34_Model.png "ResNet34 Model Image")
+
+#### Training Graph
+
+![ResNet34 Training Graph](/Assets/ResNet_34_TrainingGraph.png "ResNet34 Training Graph")
