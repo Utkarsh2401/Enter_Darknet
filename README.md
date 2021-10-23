@@ -25,14 +25,14 @@ Exploring darknet and implementing it.
   - [Object Detection](#ObjDetect)
 
   - [Dataset For Image Classification](#dataset)
+ 
+  - [Training The Model](#Train)
+
+  - [Predicting](#Predict)
 
   - [CNN](#CNN_Model)
 
   - [ResNet_34](#ResNet34)
-
-  - [Training The Model](#Train)
-
-  - [Predicting](#Predict)
  
   - [Contributors](#Contributor)
  
@@ -168,34 +168,6 @@ Follow instructions at this [link](https://pjreddie.com/darknet/train-cifar/) to
 
 Also make the cifar.data file in the cfg folder of the cloned darknet repository from the above, but since we will be using our own config files, we don't need the cifra_small.cfg file from the above link.
   
-</a>  
-
-<a name = "CNN_Model">
-
-## CNN
- 
-#### CNN Model
-
-![CNN Model](/Assets/CNN_Model.png "CNN Model Image")
-
-#### Training Graph
-
-![CNN Model Training Graph](/Assets/CNN_TrainingGraph.png "CNN Training Graph")
-
-</a>
-
-<a name = "ResNet34">
-
-## Resnet_34
-
-#### ResNet_34 Model
-
-![ResNet34 Model](/Assets/ResNet_34_Model.png "ResNet34 Model Image")
-
-#### Training Graph
-
-![ResNet34 Training Graph](/Assets/ResNet_34_TrainingGraph.png "ResNet34 Training Graph")
-  
 </a>
 
 <a name = "Train">
@@ -240,6 +212,34 @@ Using this file we will now predict outputs.
 ```
 
 </a> 
+
+<a name = "CNN_Model">
+
+## CNN
+ 
+#### CNN Model
+
+![CNN Model](/Assets/CNN_Model.png "CNN Model Image")
+
+#### Training Graph
+
+![CNN Model Training Graph](/Assets/CNN_TrainingGraph.png "CNN Training Graph")
+
+</a>
+
+<a name = "ResNet34">
+
+## Resnet_34
+
+#### ResNet_34 Model
+
+![ResNet34 Model](/Assets/ResNet_34_Model.png "ResNet34 Model Image")
+
+#### Training Graph
+
+![ResNet34 Training Graph](/Assets/ResNet_34_TrainingGraph.png "ResNet34 Training Graph")
+  
+</a>
 
 <a name = "Contributor">
 
