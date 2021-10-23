@@ -1,12 +1,18 @@
 <a name = "Project">
 
 # Enter_Darknet
+
+Exploring darknet and implementing it.
  
 </a>
+
+<a name = "Table">
 
 ## Table Of Contents
 
 * [Enter_Darknet](#Project)
+  
+  - [Table Of Contents](#table)
 
   - [Darknet](#darknet)
 
@@ -27,6 +33,8 @@
   - [Training The Model](#Train)
 
   - [Predicting](#Predict)
+ 
+</a>
 
 <a name = "darknet">
 
