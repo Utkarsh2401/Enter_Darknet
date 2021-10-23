@@ -236,6 +236,8 @@ Average Loss = 4.4057
 
 ## Resnet_34
 
+This model is inspired by the [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) research paper by Microsoft Research.
+ 
 #### ResNet_34 Model
 
 ![ResNet34 Model](/Assets/ResNet_34_Model.png "ResNet34 Model Image")
