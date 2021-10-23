@@ -37,6 +37,6 @@ And the final command is <code>make -j4</code>
 
 ![CNN Model](/Assets/CNN_Model.png "CNN Model Image")
 
-##### Training Graph
+#### Training Graph
 
-![CNN Model Training Graph](/Assets/CNN_TrainingGraph "Training Graph")
+![CNN Model Training Graph](/Assets/CNN_TrainingGraph.png "Training Graph")
