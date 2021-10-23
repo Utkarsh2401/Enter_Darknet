@@ -224,6 +224,11 @@ Using this file we will now predict outputs.
 #### Training Graph
 
 ![CNN Model Training Graph](/Assets/CNN_TrainingGraph.png "CNN Training Graph")
+ 
+Average Loss = 4.4057
+ 
+#### Result
+![CNN Model Output](/Assets/CNN_Output.png "CNN Output")
 
 </a>
 
@@ -238,6 +243,12 @@ Using this file we will now predict outputs.
 #### Training Graph
 
 ![ResNet34 Training Graph](/Assets/ResNet_34_TrainingGraph.png "ResNet34 Training Graph")
+ 
+Average Loss = 1.7484
+ 
+#### Result
+ 
+![ResNet34 Model Output](/Assets/ResNet34_Output.png "ResNet34 Output")
   
 </a>
 
