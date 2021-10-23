@@ -31,3 +31,4 @@ Then <code>cmake ..-DENABLE_CUDA=OFF</code>
 
 And the final command is <code>make -j4</code>
 
+## CNN.cfg
