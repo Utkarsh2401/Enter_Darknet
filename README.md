@@ -1,18 +1,20 @@
 # Enter_Darknet
 
-* [Darknet](#Darknet)
+* [Darknet](#darknet)
 
 * [Setting Up Darknet In Linux](#Setup_Darknet)
 
-* [Darknet tutorial Using Google Colab](#Colab)
+* [Darknet Tutorial Using Google Colab](#Colab)
+
+* [Dataset](#dataset)
 
 * [CNN](#CNN_Model)
 
 * [ResNet_34](#ResNet34)
 
-## Darknet
+<a name = "darknet">
 
-<a name = "Darknet">
+## Darknet
 
 [Darknet](https://pjreddie.com/darknet/) is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation. You can find the source on [GitHub](https://github.com/AlexeyAB/darknet).
   
@@ -66,6 +68,8 @@ Following the tutorial, setting up and installation of darknet to acquiring the 
 
 </a>
 
+<a name = "dataset">
+
 ## Dataset
 
 #### CIFAR-10
@@ -83,6 +87,8 @@ But since we are training through darknet, we will use a mirror of the dataset a
 Follow instructions at this [link](https://pjreddie.com/darknet/train-cifar/) to do so.
 
 Also make the cifar.data file in the cfg folder of the cloned darknet repository from the above, but since we will be using our own config files, we don't need the cifra_small.cfg file from the above link.
+  
+</a>  
 
 <a name = "CNN_Model">
 
