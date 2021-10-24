@@ -1,0 +1,6 @@
+classes=10
+train  = /content/gdrive/MyDrive/EklavyaDarknet/darknet/data/cifar/train.list
+valid  = /content/gdrive/MyDrive/EklavyaDarknet/darknet/data/cifar/test.list
+labels = /content/gdrive/MyDrive/EklavyaDarknet/darknet/data/cifar/labels.txt
+backup = backup/
+top=2
